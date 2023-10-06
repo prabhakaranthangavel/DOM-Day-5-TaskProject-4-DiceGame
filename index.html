@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Day 5 - TaskProject 4 - DiceGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <p> <b>Let's Play Dice</b></p>
+        <h2 class="player-turn" id="playerturn">Player-1 has to Play</h2>
+        
+        <div class="players">
+        <div class="player-1">
+            <h3>Player-1</h3>
+            <span id="span0" class="active"> </span> <br>
+            <button type="button" id="btn0" class="active">Roll Now</button>
+        </div>
+
+        <div class="image" >
+            <img src="./images/2.PNG" alt="Image2 Here" id="rollimage">
+        </div>
+
+        <div class="player-2">
+            <h3>Player-2</h3>
+            <span id="span1"> </span> <br>
+            <button type="button" id="btn1"  class="button ">Roll Now</button>
+        </div>
+
+    </div>
+
+    <button type="reset" class="button" id="reset">Reset</button> 
+      
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+          
+</html>
